@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exo_3", "exo_3\exo_3.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_operateur", "Demo_operateur\Demo_operateur.csproj", "{BD5D5300-A420-4779-B451-0DDB530356AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exo_4", "exo_4\exo_4.csproj", "{9AC5BFA2-8860-4672-A5A3-059775DFEBF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{BD5D5300-A420-4779-B451-0DDB530356AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD5D5300-A420-4779-B451-0DDB530356AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD5D5300-A420-4779-B451-0DDB530356AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AC5BFA2-8860-4672-A5A3-059775DFEBF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC5BFA2-8860-4672-A5A3-059775DFEBF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC5BFA2-8860-4672-A5A3-059775DFEBF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC5BFA2-8860-4672-A5A3-059775DFEBF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
