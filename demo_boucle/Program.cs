@@ -9,8 +9,8 @@ namespace demo_boucle
         #endregion
         static void Main(string[] args)
         {
-            /*
             #region demo
+            /*
             Console.WriteLine("veuillez introduire un nombre: ");
             string nb1_str = Console.ReadLine();
             short nb1;
@@ -38,22 +38,22 @@ namespace demo_boucle
                 }
             }
             Console.WriteLine("C'es bien un chiffre en 1 et 10!");
-            #endregion
             */
+            #endregion
 
-            /*
             #region incrementation
+            /*
             int x = 0;
 
             while (x < 10) { 
                 Console.WriteLine($"x vaut : {x}");
                 x++;
             } //while
-            #endregion
             */
+            #endregion
 
-            /*
             #region A ligne, while
+            /*
             Console.WriteLine("veuillez introduire un nombre: ");
             string nbr = Console.ReadLine();
             int incr = 0;
@@ -66,11 +66,11 @@ namespace demo_boucle
                 letter += "A";
                 incr++;
             } //while
-            #endregion
             */
+            #endregion
 
-            /*
             #region do while 
+            /*
             string password = "Voltron";
             string insert_password = "";
             Console.WriteLine("Bonjour Bienvenue");
@@ -93,11 +93,11 @@ namespace demo_boucle
                     
             }
 
-            #endregion
             */
+            #endregion
 
-            /*
             #region boucle for
+            /*
 
             for (int multiple = 1; multiple < 11; multiple++) { 
 
@@ -114,11 +114,11 @@ namespace demo_boucle
 
             } // end for multiple
 
-            #endregion
             */
+            #endregion
 
-            /*
             #region appli deux nombre 
+            /*
 
             int juste_prix = 10;
             short reponse;
@@ -141,11 +141,11 @@ namespace demo_boucle
            
             Console.WriteLine($"Genial, tu as trouvé le bon chiffre, il s'agit bien de {reponse}");
 
-            #endregion
             */
+            #endregion
 
-            /*
             #region appli deux nombre Exemple avec un RNG aléatoire
+            /*
 
             // le numero random doit se trouver tout en haut comme les src
 
@@ -154,8 +154,8 @@ namespace demo_boucle
                 int nb_aleatoire = RNG.Next(5, 15); 
                 Console.WriteLine(nb_aleatoire);
             }
-            #endregion
             */
+            #endregion
 
             #region appli deux nombre V2
 
