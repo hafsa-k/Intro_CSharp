@@ -15,13 +15,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo_operateur", "Demo_oper
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exo_4", "exo_4\exo_4.csproj", "{9AC5BFA2-8860-4672-A5A3-059775DFEBF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exo_5", "exo_5\exo_5.csproj", "{F9AA83A8-09B1-4D0E-B1A4-6DC76C9A0CF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exo_5", "exo_5\exo_5.csproj", "{F9AA83A8-09B1-4D0E-B1A4-6DC76C9A0CF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exo_6", "exo_6\exo_6.csproj", "{118889CC-4DF4-43F7-BA3A-16C34346A8EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exo_6", "exo_6\exo_6.csproj", "{118889CC-4DF4-43F7-BA3A-16C34346A8EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo_boucle", "demo_boucle\demo_boucle.csproj", "{A155D89D-1A06-47A9-96DD-9C5674D6EA8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demo_boucle", "demo_boucle\demo_boucle.csproj", "{A155D89D-1A06-47A9-96DD-9C5674D6EA8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exo_7_boucle", "exo_7_boucle\exo_7_boucle.csproj", "{281CD7C3-45CA-4173-A8A3-CDBE84A697A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exo_7_boucle", "exo_7_boucle\exo_7_boucle.csproj", "{281CD7C3-45CA-4173-A8A3-CDBE84A697A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo_list_tableau", "demo_list_tableau\demo_list_tableau.csproj", "{5AEE77A9-91A9-4FA7-9126-92FCCC0CBF45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{281CD7C3-45CA-4173-A8A3-CDBE84A697A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{281CD7C3-45CA-4173-A8A3-CDBE84A697A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{281CD7C3-45CA-4173-A8A3-CDBE84A697A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AEE77A9-91A9-4FA7-9126-92FCCC0CBF45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AEE77A9-91A9-4FA7-9126-92FCCC0CBF45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AEE77A9-91A9-4FA7-9126-92FCCC0CBF45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AEE77A9-91A9-4FA7-9126-92FCCC0CBF45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
