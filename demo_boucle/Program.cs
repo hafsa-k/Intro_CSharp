@@ -4,6 +4,9 @@ namespace demo_boucle
 {
     internal class Program
     {
+        #region nombe random 
+        static Random RNG = new Random();
+        #endregion
         static void Main(string[] args)
         {
             /*
@@ -37,6 +40,7 @@ namespace demo_boucle
             Console.WriteLine("C'es bien un chiffre en 1 et 10!");
             #endregion
             */
+
             /*
             #region incrementation
             int x = 0;
@@ -92,7 +96,7 @@ namespace demo_boucle
             #endregion
             */
 
-
+            /*
             #region boucle for
 
             for (int multiple = 1; multiple < 11; multiple++) { 
@@ -111,6 +115,76 @@ namespace demo_boucle
             } // end for multiple
 
             #endregion
+            */
+
+            /*
+            #region appli deux nombre 
+
+            int juste_prix = 10;
+            short reponse;
+            do {
+                Console.WriteLine("Donne moi un chiffre : ");
+                string proposition = Console.ReadLine();
+                reponse = short.Parse(proposition);
+                    if (reponse < juste_prix)
+                    {
+                        Console.WriteLine("C'est plus, repropose");
+
+                    } // end if moins
+                    if (reponse > juste_prix)
+                    {
+                        Console.WriteLine("C'est moins, repropose");
+                    } // end if plus
+
+            } while (juste_prix != reponse);
+
+           
+            Console.WriteLine($"Genial, tu as trouvé le bon chiffre, il s'agit bien de {reponse}");
+
+            #endregion
+            */
+
+            /*
+            #region appli deux nombre Exemple avec un RNG aléatoire
+
+            // le numero random doit se trouver tout en haut comme les src
+
+            for(int i = 0; i < 10; i++)
+            {
+                int nb_aleatoire = RNG.Next(5, 15); 
+                Console.WriteLine(nb_aleatoire);
+            }
+            #endregion
+            */
+
+            #region appli deux nombre V2
+
+            int juste_prix_v2 = RNG.Next(0, 20);
+            short reponse_v2;
+            int guess_try = 0;
+            do
+            {
+                Console.WriteLine("Donne moi un chiffre : ");
+                string proposition_v2 = Console.ReadLine();
+                reponse_v2 = short.Parse(proposition_v2);
+                if (reponse_v2 < juste_prix_v2)
+                {
+                    Console.WriteLine("C'est plus, repropose");
+
+                } // end if moins
+                if (reponse_v2 > juste_prix_v2)
+                {
+                    Console.WriteLine("C'est moins, repropose");
+                } // end if plus
+                guess_try++;
+
+            } while (juste_prix_v2 != reponse_v2);
+
+
+            Console.WriteLine($"Genial, tu as trouvé le bon chiffre, il s'agit bien de {reponse_v2}, tu as eu besoin de {guess_try} essaies");
+
+            #endregion
+
         }// static Void
 
 
