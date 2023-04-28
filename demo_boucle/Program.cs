@@ -65,7 +65,7 @@ namespace demo_boucle
             #endregion
             */
 
-
+            /*
             #region do while 
             string password = "Voltron";
             string insert_password = "";
@@ -88,6 +88,27 @@ namespace demo_boucle
                 Console.WriteLine("Bienvenue ! Ca faisait longtemps");
                     
             }
+
+            #endregion
+            */
+
+
+            #region boucle for
+
+            for (int multiple = 1; multiple < 11; multiple++) { 
+
+                Console.WriteLine($"Table de {multiple}");
+
+                for (int multiplicant = 1; multiplicant < 11; multiplicant++)
+                {
+                    int multiplication = multiple * multiplicant;
+                    Console.Write( $"{multiple} x {multiplicant} = {multiplication} ; ");
+
+                } // end for multiplicant
+
+                Console.WriteLine("");
+
+            } // end for multiple
 
             #endregion
         }// static Void
