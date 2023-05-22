@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo_list_tableau", "demo_l
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exo-tab", "exo-tab\exo-tab.csproj", "{DEB2D2E5-281A-47BB-BDE7-832FE5C4773C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test-git", "test-git\test-git.csproj", "{38DBD10F-2274-4B81-A45F-C77FD2D22683}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{DEB2D2E5-281A-47BB-BDE7-832FE5C4773C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEB2D2E5-281A-47BB-BDE7-832FE5C4773C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEB2D2E5-281A-47BB-BDE7-832FE5C4773C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38DBD10F-2274-4B81-A45F-C77FD2D22683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38DBD10F-2274-4B81-A45F-C77FD2D22683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38DBD10F-2274-4B81-A45F-C77FD2D22683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38DBD10F-2274-4B81-A45F-C77FD2D22683}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
